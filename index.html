@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/style.css">
+     <title>Tourist Map</title>
+     <!--map code-->
+     
+     
+
+<body>
+
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="#">Tourist Map</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Countries">Country</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SOS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Embasy</a></li>
+            <li><a class="dropdown-item" href="#">Hospital</a></li>
+            
+            <li><a class="dropdown-item" href="#">Police Station</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-disabled="true">Hotel</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!--Carousal-->
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image.img/img2.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="text-white">Kerala</h3>
+        <p class="text-">Kerala, God's Own Country The Land of Beauty and wonders.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image.img/img1.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="text-info">Qatar</h3>
+        <p class="text-warning">enjoy our cities get peace.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image.img/img3.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="text-dark">Saudia Arabia</h3>
+        <p class="text-success"> is the heart of the Muslim world.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--country selection-->
+
+<h1 class="text-center text-warning">Select Your Country..!</h1>
+<div class="container" id="Countries">
+  <div class="row">
+
+   <div class="col-4">
+
+<div class="card text-center border-2 border-info" style="width: 18rem;">
+  <img src="image.img/img2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Kerala</h5>
+    <p class="card-text">Greenary Of India</p>
+    <a href="#" class="btn btn-primary">Click Here</a>
+  </div>
+
+</div>
+
+   </div>
+   <div class="col-4">
+<div class="card text-center border-2 border-info"style="width: 18rem;">
+  <img src="image.img/img1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Qatar</h5>
+    <p class="card-text">Calm Cities</p>
+    <a href="#" class="btn btn-primary">click Here</a>
+  </div>
+</div>
+
+   </div>
+   <div class="col-4">
+<div class="card text-center border-2 border-info" style="width: 18rem;">
+  <img src="image.img/img3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Saudia Arabia</h5>
+    <p class="card-text">Heart Of Arabies</p>
+    <a href="#" class="btn btn-primary">click Here</a>
+  </div>
+</div>
+
+   </div>
+  </div>
+
+   </div>
+
+  </div>
+</div>
+
+<!--map code-->
+
+
+<script src="index copy.html"></script>
+
+
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
